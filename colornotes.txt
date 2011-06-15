@@ -1,0 +1,10 @@
+rottöne:
+#4c0000
+#a40000
+#f70000
+
+extrem helles grau:
+#eeeeec
+
+anthrazit:
+#2e3436
