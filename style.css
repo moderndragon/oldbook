@@ -5,7 +5,7 @@ DESCRIPTION: Print-inspired, uncluttered, text-focused one-column theme
 VERSION: 0.1
 AUTHOR: <a href="http://ryuu.de">ryuu</a>, based on the Sandbox theme by <a href="http://andy.wordpress.com/">Andy Skelton</a> &amp; <a href="http://www.plaintxt.org/">Scott Allan Wallick</a>
 AUTHOR URI: http://ryuu.de/projekte/
-TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, text, white, minimalist
+TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, text, white, minimalist, flexible;
 */
 
 /* Two-column with sidebar on left from the /examples/ folder  */
@@ -13,6 +13,19 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, text, white, minimalis
 @import url('fonts/fonts.css');
 
 /* Just some example content */
+body {
+font-family: Georgia, serif; 
+color: #222222;
+font-size: 16pt;
+}
+
+div#wrapper {
+width: 45%;
+min-width: 600px;
+padding: 5px;
+margin: 0px auto;
+}
+
 div.skip-link {
 position:absolute;
 right:1em;
