@@ -1,15 +1,16 @@
 /*
-THEME NAME: Sandbox
-THEME URI: http://www.plaintxt.org/themes/sandbox/
-DESCRIPTION: Rich with powerful and dynamic semantic class selectors, Sandbox is a canvas for CSS artists
-VERSION: 1.6.1
-AUTHOR: <a href="http://andy.wordpress.com/">Andy Skelton</a> &amp; <a href="http://www.plaintxt.org/">Scott Allan Wallick</a>
-AUTHOR URI:
-TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blank slate, starter theme, minimalist, developer
+THEME NAME: Old Book
+THEME URI: http://github.com/moderndragon/oldbook
+DESCRIPTION: Print-inspired, uncluttered, text-focused one-column theme
+VERSION: 0.1
+AUTHOR: <a href="http://ryuu.de">ryuu</a>, based on the Sandbox theme by <a href="http://andy.wordpress.com/">Andy Skelton</a> &amp; <a href="http://www.plaintxt.org/">Scott Allan Wallick</a>
+AUTHOR URI: http://ryuu.de/projekte/
+TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, text, white, minimalist
 */
 
 /* Two-column with sidebar on left from the /examples/ folder  */
-@import url('examples/2c-l.css');
+@import url('examples/1c-b.css');
+@import url('fonts/fonts.css');
 
 /* Just some example content */
 div.skip-link {
