@@ -15,7 +15,7 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, text, white, minimalis
 /* Just some example content */
 body {
 font-family: Georgia, serif; 
-color: #333333;
+color: #444444;
 font-size: 16pt;
 }
 
@@ -34,7 +34,6 @@ display:none;
 }
 
 div#menu {
-/*background:#EEE;*/
 height:1.5em;
 margin:1em 0;
 width:100%;
@@ -75,27 +74,108 @@ Entry Meta Data
 =======================================================
 */
 .entry-meta {
-color: #505050;
+color: #555555;
+font-size: 13pt;
 }
 
 .entry-title {
-font-family: Arial, sans-serif;
+font-family: serif;
 color: #a10000;
-clear:both;
 }
 
-.entry-title a:link, .entry-title a:visited {
+.entry-title a:link, .entry-title a:visited { 
 text-decoration: none;
-color: #a10000;
 }
 
 .entry-title,.entry-meta {
 clear:both;
 }
 
+/*
+=====================================================
+
+Linkfarben
+
+=====================================================
+*/
+a:link {
+color: #a10000;}
+
+a:visited {color: #4c0000;}
+
+a:active {
+color: #f50000;
+}
+
+a img {
+border: none;
+}
+
+/*
+=====================================================
+
+Layoutelemente
+
+=====================================================
+*/
+
+#header h1, #header h1 a, #header h1 a:visited {
+min-height: 100px;
+text-indent: 20px;
+text-decoration: none;
+text-transform: lowercase; 
+font-family: serif;
+font-size: 64pt;
+}
+
+#blog-description {
+margin-top: -45px;
+text-indent: 20px;
+font-size: 20pt;
+font-weight: 600;
+color: #444444;
+text-transform: lowercase;
+}
+
+div#footer, div#menu {
+color: #666666;
+}
+
+#footer {
+text-align:center;
+font-size: 10pt;
+}
+
 div#container,div#primary {
 margin-top:2em;
 }
+
+p {
+line-height: 1.4em;
+}
+
+blockquote {
+color: #555555;
+/*font-style: italic;*/
+font-weight: 300;
+line-height: 1.3em;
+background: #efefef;
+border-radius: 10px;
+-moz-border-radius: 10px;
+padding: 5px 10px; 
+}
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+  margin-bottom: 20px;
+}
+
+/*
+====================================================
+
+Kommentar-Formular-Formatierungen
+
+=====================================================
+*/
 
 form#commentform .form-label {
 margin:1em 0 0;
@@ -237,10 +317,6 @@ list-style:circle;
 
 div#menu ul li,div.gallery dl,div.navigation div.nav-previous {
 float:left;
-}
-
-div#header,div#footer {
-text-align:center;
 }
 
 input#author,input#email,input#url,div.navigation div {
