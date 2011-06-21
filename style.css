@@ -15,7 +15,7 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, text, white, minimalis
 /* Just some example content */
 body {
 font-family: Georgia, serif; 
-color: #222222;
+color: #333333;
 font-size: 16pt;
 }
 
@@ -67,6 +67,22 @@ div#menu ul li:hover ul {
 left:auto;
 }
 
+.entry-meta {
+clear:both;
+color: #505050;
+}
+
+.entry-title {
+font-family: Arial, sans-serif;
+color: #a10000;
+clear:both;
+}
+
+.entry-title a:link, .entry-title a:visited {
+text-decoration: none;
+color: #a10000;
+}
+
 .entry-title,.entry-meta {
 clear:both;
 }
@@ -100,7 +116,7 @@ textarea#comment {
 height:13em;
 margin:0 0 0.5em;
 overflow:auto;
-width:66%;
+width:88%;
 }
 
 .alignright,img.alignright{
