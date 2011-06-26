@@ -97,6 +97,32 @@ clear:both;
 /*
 =====================================================
 
+Initialen/Dropcaps
+
+=====================================================
+*/
+
+.entry-content p:first-child:first-letter {
+font-family: 'IMFELLEnglishRegular', serif; 
+text-transform: uppercase;
+font-size: 60pt;
+line-height: 1;
+float: left; 
+margin-top: 2px;
+padding: 0px 5px;
+}
+.entry-content blockquote p:first-child:first-letter {
+font-family: 'LinuxLibertineRegular', Georgia, serif;
+font-size: 100%; 
+line-height: 1.3em;
+padding: 0;
+margin: 0px;
+clear: left;
+vertical-align: baseline; 
+}
+/*
+=====================================================
+
 Linkfarben
 
 =====================================================
@@ -164,7 +190,7 @@ p {
 line-height: 1.4em;
 }
 
-blockquote {
+.entry-content blockquote {
 color: #555555;
 font-style: italic;
 font-weight: 300;
