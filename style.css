@@ -112,13 +112,14 @@ margin-top: 2px;
 padding: 0px 5px;
 }
 .entry-content blockquote p:first-child:first-letter {
-font-family: 'LinuxLibertineRegular', Georgia, serif;
-font-size: 100%; 
-line-height: 1.3em;
+/*font-family: 'LinuxLibertineRegular', Georgia, serif;*/
+font-size: 32pt; 
+margin-top: 5px;
+/*line-height: 1.3em;
 padding: 0;
 margin: 0px;
 clear: left;
-vertical-align: baseline; 
+vertical-align: baseline;*/ 
 }
 /*
 =====================================================
