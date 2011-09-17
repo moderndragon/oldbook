@@ -204,9 +204,9 @@ Fußnoten-Formatierung
   margin-left: 10%;
 }
 
-/*.footnotes ol li {
-  line-height: 1.3em;
-}*/
+.footnotes ol li {
+  line-height: 1.3em !important ;
+}
 
 /*
 ====================================================
