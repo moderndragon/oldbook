@@ -181,6 +181,22 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 
 /*
 ====================================================
+Fußnoten-Formatierung
+====================================================
+*/
+
+/*Fußnotenzeichen*/
+.footnote {
+  
+}
+
+/*Fußnotentext*/
+.footnotes {
+  font-size: 80%;
+}
+
+/*
+====================================================
 
 Kommentar-Formular-Formatierungen
 
