@@ -187,7 +187,8 @@ Fußnoten-Formatierung
 
 /*Fußnotenzeichen*/
 .footnote {
-  font-size: 70% font-size: 70%; 
+  font-size: 70%;
+  line-height: 1em;  
 }
 
 /*Fußnotentext*/
