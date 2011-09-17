@@ -160,7 +160,7 @@ font-size: 10pt;
 margin-top:2em;
 }*/
 
-p {
+p, #content li {
 line-height: 1.4em;
 }
 
@@ -194,7 +194,9 @@ Fußnoten-Formatierung
 .footnotes {
   color: #555555;
   font-size: 80%;
-  line-height: 1.25em;
+  line-height: 1.3em;
+  min-width: 300px;
+  width: 70%;
 }
 
 /*
