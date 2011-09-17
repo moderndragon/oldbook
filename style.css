@@ -160,8 +160,12 @@ font-size: 10pt;
 margin-top:2em;
 }*/
 
-p, #content li {
+p, .entry-content li {
 line-height: 1.4em;
+}
+
+.entry-content li {
+  margin-bottom: 0.4em; /*for better visual separation of list items */
 }
 
 blockquote {
@@ -195,10 +199,13 @@ Fußnoten-Formatierung
 .footnotes {
   color: #555555;
   font-size: 80%;
-  line-height: 1.3em;
   min-width: 300px;
   width: 70%;
   margin-left: 10%;
+}
+
+.footnotes ol li {
+  line-height: 1.3em !important ;
 }
 
 /*
