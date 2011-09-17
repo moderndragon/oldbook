@@ -192,7 +192,9 @@ Fußnoten-Formatierung
 
 /*Fußnotentext*/
 .footnotes {
+  color: #606060;
   font-size: 80%;
+  line-height: 1.25em;
 }
 
 /*
