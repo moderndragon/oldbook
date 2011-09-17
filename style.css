@@ -164,6 +164,10 @@ p, #content li {
 line-height: 1.4em;
 }
 
+#content li { /*for better visual separation of list items */
+  margin-bottom: 0.4em;
+}
+
 blockquote {
 color: #555555;
 font-style: italic;
@@ -195,11 +199,14 @@ Fußnoten-Formatierung
 .footnotes {
   color: #555555;
   font-size: 80%;
-  line-height: 1.3em;
   min-width: 300px;
   width: 70%;
   margin-left: 10%;
 }
+
+/*.footnotes ol li {
+  line-height: 1.3em;
+}*/
 
 /*
 ====================================================
