@@ -160,7 +160,7 @@ font-size: 10pt;
 margin-top:2em;
 }*/
 
-p {
+p, #content li {
 line-height: 1.4em;
 }
 
@@ -177,6 +177,28 @@ padding: 5px 10px;*/
 
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
   margin-bottom: 20px;
+}
+
+/*
+====================================================
+Fußnoten-Formatierung
+====================================================
+*/
+
+/*Fußnotenzeichen*/
+.footnote {
+  font-size: 70%;
+  line-height: 1em;  
+}
+
+/*Fußnotentext*/
+.footnotes {
+  color: #555555;
+  font-size: 80%;
+  line-height: 1.3em;
+  min-width: 300px;
+  width: 70%;
+  margin-left: 10%;
 }
 
 /*
