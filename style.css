@@ -160,12 +160,12 @@ font-size: 10pt;
 margin-top:2em;
 }*/
 
-p, #content li {
+p, .entry-content li {
 line-height: 1.4em;
 }
 
-#content li { /*for better visual separation of list items */
-  margin-bottom: 0.4em;
+.entry-content li {
+  margin-bottom: 0.4em; /*for better visual separation of list items */
 }
 
 blockquote {
