@@ -181,12 +181,19 @@ padding: 5px 10px;*/
 }
 
 code {
- color: #FEFEFE;
+ color: #FEFEFE; /*invert colors again?*/
  display: block; 
  font-family: monospace; /*find either web-safe font here or provide @font-face*/
- background:#757575;
+ background:#757575; /*invert colors!*/
  margin: 0 1em;
  padding: 5px;
+ border: thin solid #555555; /*Alternative: gar keine border & keinen abweichenden Hintergrund?*/
+}
+
+.code { /*class for one-line code inserts*/
+ font-family: monospace;
+ background: #EEEEEE;
+ padding: 2px;
  border: thin solid #555555;
 }
 
