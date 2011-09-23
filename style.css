@@ -40,7 +40,7 @@ width:100%;
 font-family: 'SortsMillGoudyRegular';
 }
 
-div#menu ul ,div#menu ul ul {
+div#menu ul, div#menu ul ul {
 line-height:1;
 list-style:none;
 margin:0;
@@ -178,6 +178,16 @@ line-height: 1.3em;
 border-radius: 10px;
 -moz-border-radius: 10px;
 padding: 5px 10px;*/ 
+}
+
+code {
+ color: #FEFEFE;
+ display: block; 
+ font-family: monospace; /*find either web-safe font here or provide @font-face*/
+ background:#757575;
+ margin: 0 1em;
+ padding: 5px;
+ border: thin solid #555555;
 }
 
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
